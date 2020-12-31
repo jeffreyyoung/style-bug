@@ -7,6 +7,7 @@ export default function App() {
   return (
     <View style={[styles.container, {width, height}]}>
       <Text style={styles.text}>{JSON.stringify({width, height}, null, 3)}</Text>
+      <Text>The yellow View should have the same dimensions as the window.  After resizing the window the view width and height will update</Text>
     </View>
   );
 }
